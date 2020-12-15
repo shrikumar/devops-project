@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 	stages {
-	stage('Unit Test){
+	stage('Unit Test'){
 		steps {
 			mvn compile
 		}
