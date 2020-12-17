@@ -1,7 +1,7 @@
 pipeline {
 	agent any 
 	triggers {
-       		 cron('* * * * *')
+       		 cpollSCM '* * * * *'
     	}
 	stages {
 	stage('Unit Test'){
