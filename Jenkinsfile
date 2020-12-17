@@ -1,8 +1,8 @@
 pipeline {
-	agent {
-		triggers {
+	agent any 
+	triggers {
        		 cron('* * * * *')
-    		}
+    	}
 	stages {
 	stage('Unit Test'){
 		steps {
